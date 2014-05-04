@@ -1,0 +1,150 @@
+body {
+	 font-family: "proxima-nova";
+	 background-image: url('../img/SunRain.jpg');
+	 background-size: cover;
+	 overflow: hidden;
+}
+
+h1,h2,h3 {
+	color:white;
+	font-weight: 700;
+	color: #1493AC;
+	font-family: "proxima-nova";
+}
+.top-bar { 
+  background-color: transparent;
+  }
+
+  .top-bar-section ul {
+    background-color: transparent;
+  }
+
+  .top-bar-section ul li {
+    background-color: transparent;
+  }
+
+  @media (min-width: 600px) {
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: transparent;
+  }
+  /*.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: transparent;
+  }*/
+}
+
+/* @media (max-width: 550px) {
+  body {
+   
+   background-image: url('../img/MobileSunRain.jpg');
+   background-size: cover;
+  }
+}*/
+
+ul#score-container {
+ list-style-type: none;
+ }
+.location {
+  font-style:italic;
+  font-size: 24px;
+  border-bottom: 1px white solid;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.question {
+  font-size: 28px;
+  color: #007095;
+  border-bottom: 1px white solid;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+#temp {
+  border-radius: 3px;
+}
+#temp::-webkit-input-placeholder {
+   text-align: right;
+}
+
+#temp:-moz-placeholder { /* Firefox 18- */
+   text-align: right;
+}
+.button {
+	border-radius: 3px;
+  font-family: "proxima-nova";
+	/*background-color: #E5D50E;*/
+}
+
+#status {
+	color:white;
+}
+
+#logo {
+	margin-top: 20%;
+}
+
+#info {
+	margin-top: 20%;
+}
+
+#logo {
+		color:#136F81;
+      -moz-animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+    }
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-top:50%;
+        width:300%
+      }
+      
+      to {
+        margin-top:20%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+       from {
+        margin-top:50%;
+        width:300%
+      }
+      
+      to {
+        margin-top:20%;
+        width:100%;
+      }
+    }
+
+ #info {
+      -moz-animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+    }
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-top:50%;
+        width:300%
+      }
+      
+      to {
+        margin-top:20%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-top:50%;
+        width:300%
+      }
+      
+      to {
+        margin-top:20%;
+        width:100%;
+      }
+    }
